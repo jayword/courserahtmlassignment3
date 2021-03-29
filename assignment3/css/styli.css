@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ffffff;
+	position: relative;
+	text-align: center;
+}
+#header-nav{
+	background-color: gray;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: serif, verdana;
+	color: #000000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+#nav-list{
+	margin-top: 10px;
+	background-color: white;
+}
+#nav-list a{
+	color: #000000;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+.row{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 34px;
+	/*box-shadow: 0px 0px 0px 0px, 0px 0px 6px 6px gray;*/
+	height: 2200px;
+}
+#maintitle{
+	margin-bottom: 30px;
+	position: relative;
+	top: 30px;
+	left: 10px;
+	font-size: 75%;
+	font-weight: bold;
+}
+span{
+	display: block;
+	border: 2px solid black;
+	background-color: gray; 
+	margin: 10px 10px 10px 10px;
+	position: relative;
+	top: 10px;
+	text-align: left;
+	font-size: 70px;
+}
+
+.contents{
+	margin: 35px 10px 10px 10px;
+	font-size: 16px;
+	color: black;
+}
+#chick{
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+}
+#beef{
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+}
+#sushi{
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+}
+
